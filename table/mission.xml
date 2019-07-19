@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>司马彧</Author>
+  <LastAuthor>Time</LastAuthor>
+  <Created>2016-06-29T09:31:00Z</Created>
+  <LastSaved>2016-11-15T08:43:37Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6065</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9720</WindowHeight>
+  <WindowWidth>15270</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s75">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="log">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="150"/>
+   <Row ss:StyleID="s72">
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">20160905</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sima</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">表创建</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String">任务类型</Data></Cell>
+    <Cell><Data ss:Type="String">说明</Data></Cell>
+    <Cell><Data ss:Type="String">使用类型ID范围</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">货币数量</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">2-4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">卡牌数量</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">5-7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">获胜次数</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">8-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">比赛次数</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">8-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">放置卡牌次数</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">5-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">翻转卡牌次数</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">5-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">商城消费</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">0-1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">发气泡次数</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">0-1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">失败次数</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">5-15</Data></Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">任务需求类型</Data></Cell>
+    <Cell><Data ss:Type="String">说明</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">无</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">全部</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">任意货币</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">游戏币</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">钻石</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">任意卡牌</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">普通卡牌</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">闪卡</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">任意比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">任意PVP比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">竞技PVP比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">休闲PVP比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">任意PVE比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">教学PVE比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">试玩PVE比赛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">普通PVE比赛</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.69930555555555596"
+     x:Right="0.69930555555555596" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="日常任务">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="59" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="16.5">
+   <Column ss:Index="2" ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="239.25"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="30.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">string</Data></Cell>
+    <Cell><Data ss:Type="String">string</Data></Cell>
+    <Cell><Data ss:Type="String">array</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+   </Row>
+   <Row ss:Height="33" ss:StyleID="s64">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Id</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">MissionName</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">MissionContent</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prize</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">Condition</Data></Cell>
+    <Cell><Data ss:Type="String">ConditionId</Data></Cell>
+    <Cell><Data ss:Type="String">Count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13000</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-希腊</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含希腊英雄卡的卡组赢得2场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13001</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-希腊</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含希腊英雄卡的卡组赢得5场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:6000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13002</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-北欧</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含北欧英雄卡的卡组赢得2场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13003</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-北欧</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含北欧英雄卡的卡组赢得5场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:6000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13004</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-埃及</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含埃及英雄卡的卡组赢得2场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13005</Data></Cell>
+    <Cell><Data ss:Type="String">能工巧匠-埃及</Data></Cell>
+    <Cell><Data ss:Type="String">使用只包含埃及英雄卡的卡组赢得5场胜利</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:6000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13006</Data></Cell>
+    <Cell><Data ss:Type="String">修炼者</Data></Cell>
+    <Cell><Data ss:Type="String">赢得2场任意比赛</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:1000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13007</Data></Cell>
+    <Cell><Data ss:Type="String">修炼者</Data></Cell>
+    <Cell><Data ss:Type="String">赢得5场任意比赛</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:4000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13008</Data></Cell>
+    <Cell><Data ss:Type="String">修炼者</Data></Cell>
+    <Cell><Data ss:Type="String">赢得7场任意比赛</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:7000</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13009</Data></Cell>
+    <Cell><Data ss:Type="String">啪叽啪叽！</Data></Cell>
+    <Cell><Data ss:Type="String">放置50张卡牌</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:5000</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13010</Data></Cell>
+    <Cell><Data ss:Type="String">滋遛滋遛！</Data></Cell>
+    <Cell><Data ss:Type="String">翻转30张卡牌</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:5000</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13011</Data></Cell>
+    <Cell><Data ss:Type="String">标准折扣</Data></Cell>
+    <Cell><Data ss:Type="String">在商城中购买一次任何东西</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">33:2000</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row ss:Index="21">
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"/>
+   </Row>
+   <Row ss:Index="58">
+    <Cell ss:Index="2" ss:StyleID="s71"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.69930555555555596"
+     x:Right="0.69930555555555596" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="隐藏（单次）任务">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="38" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s65" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="16.5">
+   <Column ss:Index="2" ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="159.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="30.75"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="41.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">string</Data></Cell>
+    <Cell><Data ss:Type="String">string</Data></Cell>
+    <Cell><Data ss:Type="String">array</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+   </Row>
+   <Row ss:Height="33" ss:StyleID="s64">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Id</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">MissionName</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">MissionContent</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prize</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">Condition</Data></Cell>
+    <Cell><Data ss:Type="String">ConditionId</Data></Cell>
+    <Cell><Data ss:Type="String">Count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13900</Data></Cell>
+    <Cell><Data ss:Type="String">魔导金币！</Data></Cell>
+    <Cell><Data ss:Type="String">收集1000金币</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:1000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13901</Data></Cell>
+    <Cell><Data ss:Type="String">维克大师</Data></Cell>
+    <Cell><Data ss:Type="String">进行1000次任意模式游戏</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">66:3000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13902</Data></Cell>
+    <Cell><Data ss:Type="String">唤醒万物之人</Data></Cell>
+    <Cell><Data ss:Type="String">赢得500场任意模式游戏胜利</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:5000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13903</Data></Cell>
+    <Cell><Data ss:Type="String">高风险，高回报！</Data></Cell>
+    <Cell><Data ss:Type="String">第一次赢得竞技战斗</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:50</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13904</Data></Cell>
+    <Cell><Data ss:Type="String">席卷商铺！</Data></Cell>
+    <Cell><Data ss:Type="String">拥有1000水晶簇</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:50</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13905</Data></Cell>
+    <Cell><Data ss:Type="String">全都不剩！</Data></Cell>
+    <Cell><Data ss:Type="String">拥有10000水晶簇</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:50</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13906</Data></Cell>
+    <Cell><Data ss:Type="String">赢在起跑线！</Data></Cell>
+    <Cell><Data ss:Type="String">购买新手礼包</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:500</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13907</Data></Cell>
+    <Cell><Data ss:Type="String">正当之举</Data></Cell>
+    <Cell><Data ss:Type="String">第一次购买商城中的道具</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">88:500</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13908</Data></Cell>
+    <Cell><Data ss:Type="String">多沟通，少抱怨</Data></Cell>
+    <Cell><Data ss:Type="String">发送所有聊天气泡一次</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">66:200</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13909</Data></Cell>
+    <Cell><Data ss:Type="String">基础熟练者</Data></Cell>
+    <Cell><Data ss:Type="String">赢得第一次PVP游戏的胜利</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">66:40</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13910</Data></Cell>
+    <Cell><Data ss:Type="String">不气不馁</Data></Cell>
+    <Cell><Data ss:Type="String">输掉一次PVP游戏</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">66:40</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.69930555555555596"
+     x:Right="0.69930555555555596" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

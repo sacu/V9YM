@@ -1,0 +1,3 @@
+@echo off
+java -cp ../target/classes/ org.jiira.SAProtoMain "D:/WorkSpace/java/V9Y/config/local/saproto.u" "D:/WorkSpace/unity/xlua_demo/Assets/_Resources/Data/en_saproto.u" "D:/WorkSpace/java/V9Y/src/main/java/org/jiira/protobuf/SAProtoDecode.java" "D:/WorkSpace/unity/xlua_demo/Assets/Script/Proto/SAProtoDecode.cs" "D:/WorkSpace/unity/xlua_demo/Assets/LuaScr/org/jiira/protobuf/SAProtoDecode.lua" "../table/" "1#1#0#5#card#STCard"
+pause

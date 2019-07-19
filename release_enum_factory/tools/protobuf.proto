@@ -1,0 +1,55 @@
+//option java_package = "org.jiira.protobuf"; //生成Java类时包名；C#类的命名空间
+option java_outer_classname = "ProtobufType"; //生成Java、C#类的类名
+package org.jiira.protobuf;
+
+//repeated 数组
+//optional 可选
+//required 必选
+//S(XX)Server推送
+//C(XX)Client请求
+///######################################################
+///登录
+///######################################################
+message CLogin {//登录请求
+	required string userName = 1;//帐号
+	required string passWord = 2;//密码
+}
+///######################################################
+///用户信息
+///######################################################
+message SUserData {
+	required int32 code = 1;//返回信息
+}
+///######################################################
+///错误码
+///######################################################
+message SError {//登录状态返回
+	required int32 code = 1;//消息码
+}
+///######################################################
+///单次更新（用户信息）
+///######################################################
+message SSingleUpdate{
+	required int32 userID = 1;//用户ID
+	repeated int32 keys = 2;//更新键
+	repeated int32 IDs = 3;//id数组
+	repeated int32 counts = 4;//数量数组
+}
+///######################################################
+///测试
+///######################################################
+message CTest {//测试
+	required int32 id = 1;
+	required string msg = 2;
+}
+message STest {//测试
+	required int32 id = 1;
+	required string msg = 2;
+}
+
+///######################################################
+///心跳
+///######################################################
+message CHeart{
+	required int64 time = 1;//时间
+}

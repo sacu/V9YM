@@ -81,7 +81,6 @@ public class Lang {
 	public static final EnumParameter[] AccountTypeEnumList = {
 			EnumParameter.n("Offline", ""),
 			EnumParameter.n("Online", ""),
-			EnumParameter.n("Battle", ""),
 			EnumParameter.n("Error", ""),
 	};
 	public static final EnumParameter[] TeamTypeEnumList = {

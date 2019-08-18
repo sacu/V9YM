@@ -18,7 +18,12 @@ message CLogin {//登录请求
 ///用户信息
 ///######################################################
 message SUserData {
-	required int32 code = 1;//返回信息
+	required int32 id = 1;//id
+	required string userName = 2;//帐号
+	required string nickName = 3;//昵称
+	required int32 coin = 4;//金币
+	required int32 diamond = 5;//钻石
+	required int32 state = 6;//状态
 }
 ///######################################################
 ///错误码

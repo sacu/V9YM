@@ -1,11 +1,17 @@
 
-Ω
+ç
 protobuf.protoorg.jiira.protobuf",
 CLogin
 userName (	
-passWord (	"
-	SUserData
-code ("
+passWord (	"i
+	SUserData
+
+id (
+userName (	
+nickName (	
+coin (
+diamond (
+state ("
 SError
 code ("J
 SSingleUpdate

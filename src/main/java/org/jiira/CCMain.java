@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Vector;
 
-import org.jiira.cc.CCCSharpWrap;
 import org.jiira.cc.CCClass;
 import org.jiira.cc.CCCost;
 import org.jiira.cc.CCEnum;

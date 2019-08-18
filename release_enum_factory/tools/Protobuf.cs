@@ -37,13 +37,14 @@ namespace org.jiira.protobuf {
     static Protobuf() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           "Cg5wcm90b2J1Zi5wcm90bxISb3JnLmppaXJhLnByb3RvYnVmIiwKBkNMb2dp" + 
-          "bhIQCgh1c2VyTmFtZRgBIAIoCRIQCghwYXNzV29yZBgCIAIoCSIZCglTVXNl" + 
-          "ckRhdGESDAoEY29kZRgBIAIoBSIWCgZTRXJyb3ISDAoEY29kZRgBIAIoBSJK" + 
-          "Cg1TU2luZ2xlVXBkYXRlEg4KBnVzZXJJRBgBIAIoBRIMCgRrZXlzGAIgAygF" + 
-          "EgsKA0lEcxgDIAMoBRIOCgZjb3VudHMYBCADKAUiIAoFQ1Rlc3QSCgoCaWQY" + 
-          "ASACKAUSCwoDbXNnGAIgAigJIiAKBVNUZXN0EgoKAmlkGAEgAigFEgsKA21z" + 
-          "ZxgCIAIoCSIWCgZDSGVhcnQSDAoEdGltZRgBIAIoA0IOQgxQcm90b2J1ZlR5" + 
-          "cGU=");
+          "bhIQCgh1c2VyTmFtZRgBIAIoCRIQCghwYXNzV29yZBgCIAIoCSJpCglTVXNl" + 
+          "ckRhdGESCgoCaWQYASACKAUSEAoIdXNlck5hbWUYAiACKAkSEAoIbmlja05h" + 
+          "bWUYAyACKAkSDAoEY29pbhgEIAIoBRIPCgdkaWFtb25kGAUgAigFEg0KBXN0" + 
+          "YXRlGAYgAigFIhYKBlNFcnJvchIMCgRjb2RlGAEgAigFIkoKDVNTaW5nbGVV" + 
+          "cGRhdGUSDgoGdXNlcklEGAEgAigFEgwKBGtleXMYAiADKAUSCwoDSURzGAMg" + 
+          "AygFEg4KBmNvdW50cxgEIAMoBSIgCgVDVGVzdBIKCgJpZBgBIAIoBRILCgNt" + 
+          "c2cYAiACKAkiIAoFU1Rlc3QSCgoCaWQYASACKAUSCwoDbXNnGAIgAigJIhYK" + 
+          "BkNIZWFydBIMCgR0aW1lGAEgAigDQg5CDFByb3RvYnVmVHlwZQ==");
       pbd::FileDescriptor.InternalDescriptorAssigner assigner = delegate(pbd::FileDescriptor root) {
         descriptor = root;
         internal__static_org_jiira_protobuf_CLogin__Descriptor = Descriptor.MessageTypes[0];
@@ -53,7 +54,7 @@ namespace org.jiira.protobuf {
         internal__static_org_jiira_protobuf_SUserData__Descriptor = Descriptor.MessageTypes[1];
         internal__static_org_jiira_protobuf_SUserData__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SUserData, global::org.jiira.protobuf.SUserData.Builder>(internal__static_org_jiira_protobuf_SUserData__Descriptor,
-                new string[] { "Code", });
+                new string[] { "Id", "UserName", "NickName", "Coin", "Diamond", "State", });
         internal__static_org_jiira_protobuf_SError__Descriptor = Descriptor.MessageTypes[2];
         internal__static_org_jiira_protobuf_SError__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SError, global::org.jiira.protobuf.SError.Builder>(internal__static_org_jiira_protobuf_SError__Descriptor,
@@ -366,27 +367,97 @@ namespace org.jiira.protobuf {
       get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_SUserData__FieldAccessorTable; }
     }
     
-    public const int CodeFieldNumber = 1;
-    private bool hasCode;
-    private int code_ = 0;
-    public bool HasCode {
-      get { return hasCode; }
+    public const int IdFieldNumber = 1;
+    private bool hasId;
+    private int id_ = 0;
+    public bool HasId {
+      get { return hasId; }
     }
-    public int Code {
-      get { return code_; }
+    public int Id {
+      get { return id_; }
+    }
+    
+    public const int UserNameFieldNumber = 2;
+    private bool hasUserName;
+    private string userName_ = "";
+    public bool HasUserName {
+      get { return hasUserName; }
+    }
+    public string UserName {
+      get { return userName_; }
+    }
+    
+    public const int NickNameFieldNumber = 3;
+    private bool hasNickName;
+    private string nickName_ = "";
+    public bool HasNickName {
+      get { return hasNickName; }
+    }
+    public string NickName {
+      get { return nickName_; }
+    }
+    
+    public const int CoinFieldNumber = 4;
+    private bool hasCoin;
+    private int coin_ = 0;
+    public bool HasCoin {
+      get { return hasCoin; }
+    }
+    public int Coin {
+      get { return coin_; }
+    }
+    
+    public const int DiamondFieldNumber = 5;
+    private bool hasDiamond;
+    private int diamond_ = 0;
+    public bool HasDiamond {
+      get { return hasDiamond; }
+    }
+    public int Diamond {
+      get { return diamond_; }
+    }
+    
+    public const int StateFieldNumber = 6;
+    private bool hasState;
+    private int state_ = 0;
+    public bool HasState {
+      get { return hasState; }
+    }
+    public int State {
+      get { return state_; }
     }
     
     public override bool IsInitialized {
       get {
-        if (!hasCode) return false;
+        if (!hasId) return false;
+        if (!hasUserName) return false;
+        if (!hasNickName) return false;
+        if (!hasCoin) return false;
+        if (!hasDiamond) return false;
+        if (!hasState) return false;
         return true;
       }
     }
     
     public override void WriteTo(pb::CodedOutputStream output) {
       int size = SerializedSize;
-      if (HasCode) {
-        output.WriteInt32(1, Code);
+      if (HasId) {
+        output.WriteInt32(1, Id);
+      }
+      if (HasUserName) {
+        output.WriteString(2, UserName);
+      }
+      if (HasNickName) {
+        output.WriteString(3, NickName);
+      }
+      if (HasCoin) {
+        output.WriteInt32(4, Coin);
+      }
+      if (HasDiamond) {
+        output.WriteInt32(5, Diamond);
+      }
+      if (HasState) {
+        output.WriteInt32(6, State);
       }
       UnknownFields.WriteTo(output);
     }
@@ -398,8 +469,23 @@ namespace org.jiira.protobuf {
         if (size != -1) return size;
         
         size = 0;
-        if (HasCode) {
-          size += pb::CodedOutputStream.ComputeInt32Size(1, Code);
+        if (HasId) {
+          size += pb::CodedOutputStream.ComputeInt32Size(1, Id);
+        }
+        if (HasUserName) {
+          size += pb::CodedOutputStream.ComputeStringSize(2, UserName);
+        }
+        if (HasNickName) {
+          size += pb::CodedOutputStream.ComputeStringSize(3, NickName);
+        }
+        if (HasCoin) {
+          size += pb::CodedOutputStream.ComputeInt32Size(4, Coin);
+        }
+        if (HasDiamond) {
+          size += pb::CodedOutputStream.ComputeInt32Size(5, Diamond);
+        }
+        if (HasState) {
+          size += pb::CodedOutputStream.ComputeInt32Size(6, State);
         }
         size += UnknownFields.SerializedSize;
         memoizedSerializedSize = size;
@@ -493,8 +579,23 @@ namespace org.jiira.protobuf {
       
       public override Builder MergeFrom(SUserData other) {
         if (other == global::org.jiira.protobuf.SUserData.DefaultInstance) return this;
-        if (other.HasCode) {
-          Code = other.Code;
+        if (other.HasId) {
+          Id = other.Id;
+        }
+        if (other.HasUserName) {
+          UserName = other.UserName;
+        }
+        if (other.HasNickName) {
+          NickName = other.NickName;
+        }
+        if (other.HasCoin) {
+          Coin = other.Coin;
+        }
+        if (other.HasDiamond) {
+          Diamond = other.Diamond;
+        }
+        if (other.HasState) {
+          State = other.State;
         }
         this.MergeUnknownFields(other.UnknownFields);
         return this;
@@ -529,7 +630,27 @@ namespace org.jiira.protobuf {
               break;
             }
             case 8: {
-              Code = input.ReadInt32();
+              Id = input.ReadInt32();
+              break;
+            }
+            case 18: {
+              UserName = input.ReadString();
+              break;
+            }
+            case 26: {
+              NickName = input.ReadString();
+              break;
+            }
+            case 32: {
+              Coin = input.ReadInt32();
+              break;
+            }
+            case 40: {
+              Diamond = input.ReadInt32();
+              break;
+            }
+            case 48: {
+              State = input.ReadInt32();
               break;
             }
           }
@@ -537,21 +658,113 @@ namespace org.jiira.protobuf {
       }
       
       
-      public bool HasCode {
-        get { return result.HasCode; }
+      public bool HasId {
+        get { return result.HasId; }
       }
-      public int Code {
-        get { return result.Code; }
-        set { SetCode(value); }
+      public int Id {
+        get { return result.Id; }
+        set { SetId(value); }
       }
-      public Builder SetCode(int value) {
-        result.hasCode = true;
-        result.code_ = value;
+      public Builder SetId(int value) {
+        result.hasId = true;
+        result.id_ = value;
         return this;
       }
-      public Builder ClearCode() {
-        result.hasCode = false;
-        result.code_ = 0;
+      public Builder ClearId() {
+        result.hasId = false;
+        result.id_ = 0;
+        return this;
+      }
+      
+      public bool HasUserName {
+        get { return result.HasUserName; }
+      }
+      public string UserName {
+        get { return result.UserName; }
+        set { SetUserName(value); }
+      }
+      public Builder SetUserName(string value) {
+        pb::ThrowHelper.ThrowIfNull(value, "value");
+        result.hasUserName = true;
+        result.userName_ = value;
+        return this;
+      }
+      public Builder ClearUserName() {
+        result.hasUserName = false;
+        result.userName_ = "";
+        return this;
+      }
+      
+      public bool HasNickName {
+        get { return result.HasNickName; }
+      }
+      public string NickName {
+        get { return result.NickName; }
+        set { SetNickName(value); }
+      }
+      public Builder SetNickName(string value) {
+        pb::ThrowHelper.ThrowIfNull(value, "value");
+        result.hasNickName = true;
+        result.nickName_ = value;
+        return this;
+      }
+      public Builder ClearNickName() {
+        result.hasNickName = false;
+        result.nickName_ = "";
+        return this;
+      }
+      
+      public bool HasCoin {
+        get { return result.HasCoin; }
+      }
+      public int Coin {
+        get { return result.Coin; }
+        set { SetCoin(value); }
+      }
+      public Builder SetCoin(int value) {
+        result.hasCoin = true;
+        result.coin_ = value;
+        return this;
+      }
+      public Builder ClearCoin() {
+        result.hasCoin = false;
+        result.coin_ = 0;
+        return this;
+      }
+      
+      public bool HasDiamond {
+        get { return result.HasDiamond; }
+      }
+      public int Diamond {
+        get { return result.Diamond; }
+        set { SetDiamond(value); }
+      }
+      public Builder SetDiamond(int value) {
+        result.hasDiamond = true;
+        result.diamond_ = value;
+        return this;
+      }
+      public Builder ClearDiamond() {
+        result.hasDiamond = false;
+        result.diamond_ = 0;
+        return this;
+      }
+      
+      public bool HasState {
+        get { return result.HasState; }
+      }
+      public int State {
+        get { return result.State; }
+        set { SetState(value); }
+      }
+      public Builder SetState(int value) {
+        result.hasState = true;
+        result.state_ = value;
+        return this;
+      }
+      public Builder ClearState() {
+        result.hasState = false;
+        result.state_ = 0;
         return this;
       }
     }

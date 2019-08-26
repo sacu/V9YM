@@ -29,7 +29,7 @@ public class SAJavaProtoDecode implements ISAProtoDecode {
 				+ "\n\tpublic static final String SABoolean = \"" + SAProtoEncode.SABoolean + "\";"
 				+ "\n\tpublic static final String SAArray = \"" + SAProtoEncode.SAArray + "\";"
 				+ "\n\tpublic static final String isBooleanStr = \"" + SAProtoEncode.isBooleanStr + "\";"
-				+ "\n\tpublic static final String splitStr = \"" + SAProtoEncode.splitStr + "\";"
+				+ "\n\tpublic static final String splitStr = \"" + SAProtoEncode.javaSplitStr + "\";"
 				+ "\n\tpublic static final String decodeAssign = \"" + SAProtoEncode.decodeAssign + "\";"
 				+ "\n\tpublic static final String decodeSplit = \"" + SAProtoEncode.decodeSplit + "\";"
 				+ "\n\tpublic static final String decodeEnd = \"" + SAProtoEncode.decodeEnd + "\";"

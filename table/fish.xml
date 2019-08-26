@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>司马彧</Author>
+  <LastAuthor>time</LastAuthor>
+  <Created>2016-06-23T02:14:00Z</Created>
+  <LastSaved>2019-08-21T10:01:55Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6065</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9690</WindowHeight>
+  <WindowWidth>15885</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s80">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s86">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="黑体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s146">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s147">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s148">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="全卡牌列表">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="135.75" ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s72" ss:AutoFitWidth="0"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="264"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">float</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s148"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s80">
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Id</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Life</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Speed</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Diamond</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Coin</Data></Cell>
+    <Cell ss:StyleID="s146"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Prop</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">扯旗鱼</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1001</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">狮子鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1002</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">天使鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1003</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">小丑鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1004</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">小黄鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1005</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">小绿鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1006</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">灯笼鱼</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1007</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">电鳗鱼</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1008</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">地鲶鱼</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1009</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">房鱼</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">海龟</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">5300</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1011</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">河豚</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1012</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">箭鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2200</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1013</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">金枪鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">3300</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1014</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">15000</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">鲨鱼</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">20000</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555596"/>
+    <Footer x:Margin="0.51180555555555596"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>85</Zoom>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="策划用中文">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="62" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:AutoFitWidth="0" ss:Width="230.25"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="61" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">标准速度2,支持小数</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s147"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">1005有问题</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.69930555555555596"
+     x:Right="0.69930555555555596" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>60</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>73</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

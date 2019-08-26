@@ -26,6 +26,29 @@ message SUserData {
 	required int32 state = 6;//状态
 }
 ///######################################################
+///房间
+///######################################################
+message CEnterRoom {//进入房间
+}
+message COutRoom {//离开房间
+}
+message SOutRoom {//离开房间
+}
+///######################################################
+///房间(关卡)信息
+///######################################################
+message SFishChapter {
+	required int32 roomID = 1;//房间id
+	required int64 startTime = 2;//开始时间
+	required int64 currentTime = 3;//当前时间
+	required int32 chapterID = 4;//关卡ID
+	repeated int32 fishList = 5;//存活鱼群编号(未排序前的编号)
+	repeated int32 userList = 6;//用户列表(-1代表空位)
+}
+message CHangUpRoom {//挂起房间
+}
+
+///######################################################
 ///错误码
 ///######################################################
 message SError {//登录状态返回

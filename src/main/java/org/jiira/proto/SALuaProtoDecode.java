@@ -27,7 +27,6 @@ public class SALuaProtoDecode implements ISAProtoDecode {
 				+ "\n\tSAArray = \"" + SAProtoEncode.SAArray + "\","
 				+ "\n\tisBooleanStr = \"" + SAProtoEncode.isBooleanStr + "\","
 				+ "\n\t----------通用"
-				+ "\n\tsplitStr = \"" + SAProtoEncode.splitStr + "\","
 				+ "\n\tdecodeAssign = \"" + SAProtoEncode.decodeAssign + "\","
 				+ "\n\tdecodeSplit = \"" + SAProtoEncode.decodeSplit + "\","
 				+ "\n\tdecodeEnd = \"" + SAProtoEncode.decodeEnd + "\","

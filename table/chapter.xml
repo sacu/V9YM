@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>司马彧</Author>
+  <LastAuthor>time</LastAuthor>
+  <Created>2016-06-23T02:14:00Z</Created>
+  <LastSaved>2019-08-21T10:25:14Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6065</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9690</WindowHeight>
+  <WindowWidth>15915</WindowWidth>
+  <WindowTopX>3645</WindowTopX>
+  <WindowTopY>600</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="11"
+    ss:Color="#FF0000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="全卡牌列表">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="444"/>
+   <Column ss:AutoFitWidth="0" ss:Width="135.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="264"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">int</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">array</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s66">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Id</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SOF</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s67"/>
+    <Cell ss:Index="8" ss:StyleID="s68"/>
+    <Cell ss:Index="13" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1003:0:-20:1*1003:0:-1:20*1003:500:-20:1*1003:500:-1:20*1003:1000:-20:1*1003:1000:-1:20*1003:1500:-20:1*1003:1500:-1:20*1003:2000:-20:1*1003:2000:-1:20*1003:2500:-20:1*1003:2500:-1:20*1003:3000:-20:1*1003:3000:-1:20*1003:3500:-20:1*1003:3500:-1:20*1003:4000:-20:1*1003:4000:-1:20*1003:4500:-20:1*1003:4500:-1:20</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">5001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">1001:0:-5:5*1001:500:-5:5*1001:1000:-5:5*1001:1500:-5:5*1001:2000:-5:5*1001:2500:-5:5*1001:3000:-5:5*1001:3500:-5:5*1001:4000:-5:5*1001:4500:-5:5*1010:0:-10:10*1010:500:-10:10*1010:1000:-10:10*1010:1500:-10:10*1010:2000:-10:10*1010:2500:-10:10*1010:3000:-10:10*1010:3500:-10:10*1010:4000:-10:10*1010:4500:-10:10*1010:5000:-10:10*1010:5500:-10:10*1010:6000:-10:10*1010:6500:-10:10*1010:7000:-10:10*1010:7500:-10:10*1010:8000:-10:10*1010:8500:-10:10*1010:9000:-10:10*1010:9500:-10:10*1002:0:-15:15*1002:500:-15:15*1002:1000:-15:15*1002:1500:-15:15*1002:2000:-15:15*1002:2500:-15:15*1002:3000:-15:15*1002:3500:-15:15*1002:4000:-15:15*1002:4500:-15:15*1014:1000:20:-1</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="13" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555596"/>
+    <Footer x:Margin="0.51180555555555596"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="策划用中文">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="61" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Column ss:AutoFitWidth="0" ss:Width="230.25"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:Index="61" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">标准速度2,支持小数</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.69930555555555596"
+     x:Right="0.69930555555555596" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Zoom>85</Zoom>
+   <TopRowVisible>60</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>89</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

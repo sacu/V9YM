@@ -10,6 +10,8 @@ public class CCCost {
 			CostModel.n(TypeEnum.String, "Sock", "\".sock\""),
 			CostModel.n(TypeEnum.String, "DB_ID_BASETABLE", "\"gamedb\""),
 			CostModel.n(TypeEnum.Boolean, "EnableAutocommit", "true"),
+			CostModel.n(TypeEnum.Int, "FISH_ROOM_MAX", "1000"),
+			CostModel.n(TypeEnum.Int, "FISH_ROOM_USER_MAX", "4"),
 			CostModel.n(TypeEnum.Int, "SOCK_TYPE_LENGTH", "2"),
 			CostModel.n(TypeEnum.Int, "SOCK_CONTEXT_LENGTH", "2"),
 			CostModel.n(TypeEnum.Int, "SOCK_HEAD_LENGTH", "4"),

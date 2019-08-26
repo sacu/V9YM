@@ -56,9 +56,10 @@ public class Lang {
 			FunParameter.n("SkillEquip", 7000, 9499, "技能装备"), FunParameter.n("AttributeEquip", 9500, 9999, "属性装备"), };
 
 	public static final EnumParameter[] GameTypeEnumList = {
-			EnumParameter.n("Leisure", "休闲模式"),
-			EnumParameter.n("Competition", "竞技模式"),
-			EnumParameter.n("Gay", "约战"),
+			EnumParameter.n("None", "无"),
+			EnumParameter.n("FishSimple", "初级捕鱼"),
+			EnumParameter.n("FishOrdinary", "中级捕鱼"),
+			EnumParameter.n("FishDifficultie", "高级捕鱼"),
 	};
 	
 	public static final EnumParameter[] BattleMessageTypeEnumList = {
@@ -96,18 +97,14 @@ public class Lang {
 		EnumParameter.n("NickNameExistError", "昵称已存在"),
 		EnumParameter.n("AccountIsFoundError", "用户已存在"),
 		EnumParameter.n("AccountCreateError", "用户创建失败"),
-		EnumParameter.n("CardGroupError", "卡组设置失败"),
-		EnumParameter.n("BuyCardError", "卡牌合成失败"),
-		EnumParameter.n("SellCardError", "卡牌分解失败"),
-		EnumParameter.n("MatchRivalError", "请求匹配失败"),
-		EnumParameter.n("CancelMatchError", "取消匹配失败"),
-		EnumParameter.n("SettingDefaultCardGroupError", "默认卡组设置失败"),
 		EnumParameter.n("AccountError", "帐号异常"),
 		EnumParameter.n("RepeatLoginError", "帐号已在登录状态"),
 		EnumParameter.n("AccountOfflineError", "目标用户是离线状态"),
 		EnumParameter.n("BalanceIsNotEnoughError", "余额不足"),
 		EnumParameter.n("DataBaseError", "数据库操作失败"),
-		EnumParameter.n("CoolingTimeDidNoArriveError", "冷却时间未结束"),
+		//捕鱼
+		EnumParameter.n("NoFoundFishRoomError", "房间不存在"),
+		EnumParameter.n("NoJoinFishRoomError", "没有加入这个房间"),
 		//好友
 		EnumParameter.n("FirendListError", "获取好友列表失败"),
 		EnumParameter.n("FirendInfoError", "获取好友信息失败"),

@@ -27,7 +27,7 @@ public class SAProtoEncode {
 	//通用
 	public static final String classBegin = "[[]";//类的开始
 	public static final String classEnd = "[]]";//类的结束
-	public static final String splitStr = "\\\\[\\\\*]";//数组分隔符
+//	public static final String splitStr = "\\\\[\\\\*]";//数组分隔符
 	public static final String decodeAssign = "[:]";//键值分隔符
 	public static final String decodeSplit = "[,]";//分隔符
 	public static final String decodeBegin = "[{]";//结构体开始
@@ -38,6 +38,9 @@ public class SAProtoEncode {
 	public static final String decodeArrayEnd = arrayEnd + decodeSplit;//数组结束标识符
 	public static final String decodeStrEnd = "\\\"";//名称包裹符号
 	public static final String classNameEnd = decodeEnd + classEnd + "\\\"";//类名结尾
+	
+	//java
+	public static final String javaSplitStr = "\\\\*";//数组分隔符
 	
 	//lua
 	public static final String luaClassBegin = "%[[]";//类的开始

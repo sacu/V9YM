@@ -17,6 +17,16 @@ namespace org.jiira.protobuf {
     internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CLogin, global::org.jiira.protobuf.CLogin.Builder> internal__static_org_jiira_protobuf_CLogin__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_SUserData__Descriptor;
     internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SUserData, global::org.jiira.protobuf.SUserData.Builder> internal__static_org_jiira_protobuf_SUserData__FieldAccessorTable;
+    internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_CEnterRoom__Descriptor;
+    internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CEnterRoom, global::org.jiira.protobuf.CEnterRoom.Builder> internal__static_org_jiira_protobuf_CEnterRoom__FieldAccessorTable;
+    internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_COutRoom__Descriptor;
+    internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.COutRoom, global::org.jiira.protobuf.COutRoom.Builder> internal__static_org_jiira_protobuf_COutRoom__FieldAccessorTable;
+    internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_SOutRoom__Descriptor;
+    internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SOutRoom, global::org.jiira.protobuf.SOutRoom.Builder> internal__static_org_jiira_protobuf_SOutRoom__FieldAccessorTable;
+    internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_SFishChapter__Descriptor;
+    internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SFishChapter, global::org.jiira.protobuf.SFishChapter.Builder> internal__static_org_jiira_protobuf_SFishChapter__FieldAccessorTable;
+    internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_CHangUpRoom__Descriptor;
+    internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CHangUpRoom, global::org.jiira.protobuf.CHangUpRoom.Builder> internal__static_org_jiira_protobuf_CHangUpRoom__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_SError__Descriptor;
     internal static pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SError, global::org.jiira.protobuf.SError.Builder> internal__static_org_jiira_protobuf_SError__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_org_jiira_protobuf_SSingleUpdate__Descriptor;
@@ -40,7 +50,11 @@ namespace org.jiira.protobuf {
           "bhIQCgh1c2VyTmFtZRgBIAIoCRIQCghwYXNzV29yZBgCIAIoCSJpCglTVXNl" + 
           "ckRhdGESCgoCaWQYASACKAUSEAoIdXNlck5hbWUYAiACKAkSEAoIbmlja05h" + 
           "bWUYAyACKAkSDAoEY29pbhgEIAIoBRIPCgdkaWFtb25kGAUgAigFEg0KBXN0" + 
-          "YXRlGAYgAigFIhYKBlNFcnJvchIMCgRjb2RlGAEgAigFIkoKDVNTaW5nbGVV" + 
+          "YXRlGAYgAigFIgwKCkNFbnRlclJvb20iCgoIQ091dFJvb20iCgoIU091dFJv" + 
+          "b20ifQoMU0Zpc2hDaGFwdGVyEg4KBnJvb21JRBgBIAIoBRIRCglzdGFydFRp" + 
+          "bWUYAiACKAMSEwoLY3VycmVudFRpbWUYAyACKAMSEQoJY2hhcHRlcklEGAQg" + 
+          "AigFEhAKCGZpc2hMaXN0GAUgAygFEhAKCHVzZXJMaXN0GAYgAygFIg0KC0NI" + 
+          "YW5nVXBSb29tIhYKBlNFcnJvchIMCgRjb2RlGAEgAigFIkoKDVNTaW5nbGVV" + 
           "cGRhdGUSDgoGdXNlcklEGAEgAigFEgwKBGtleXMYAiADKAUSCwoDSURzGAMg" + 
           "AygFEg4KBmNvdW50cxgEIAMoBSIgCgVDVGVzdBIKCgJpZBgBIAIoBRILCgNt" + 
           "c2cYAiACKAkiIAoFU1Rlc3QSCgoCaWQYASACKAUSCwoDbXNnGAIgAigJIhYK" + 
@@ -55,23 +69,43 @@ namespace org.jiira.protobuf {
         internal__static_org_jiira_protobuf_SUserData__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SUserData, global::org.jiira.protobuf.SUserData.Builder>(internal__static_org_jiira_protobuf_SUserData__Descriptor,
                 new string[] { "Id", "UserName", "NickName", "Coin", "Diamond", "State", });
-        internal__static_org_jiira_protobuf_SError__Descriptor = Descriptor.MessageTypes[2];
+        internal__static_org_jiira_protobuf_CEnterRoom__Descriptor = Descriptor.MessageTypes[2];
+        internal__static_org_jiira_protobuf_CEnterRoom__FieldAccessorTable = 
+            new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CEnterRoom, global::org.jiira.protobuf.CEnterRoom.Builder>(internal__static_org_jiira_protobuf_CEnterRoom__Descriptor,
+                new string[] { });
+        internal__static_org_jiira_protobuf_COutRoom__Descriptor = Descriptor.MessageTypes[3];
+        internal__static_org_jiira_protobuf_COutRoom__FieldAccessorTable = 
+            new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.COutRoom, global::org.jiira.protobuf.COutRoom.Builder>(internal__static_org_jiira_protobuf_COutRoom__Descriptor,
+                new string[] { });
+        internal__static_org_jiira_protobuf_SOutRoom__Descriptor = Descriptor.MessageTypes[4];
+        internal__static_org_jiira_protobuf_SOutRoom__FieldAccessorTable = 
+            new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SOutRoom, global::org.jiira.protobuf.SOutRoom.Builder>(internal__static_org_jiira_protobuf_SOutRoom__Descriptor,
+                new string[] { });
+        internal__static_org_jiira_protobuf_SFishChapter__Descriptor = Descriptor.MessageTypes[5];
+        internal__static_org_jiira_protobuf_SFishChapter__FieldAccessorTable = 
+            new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SFishChapter, global::org.jiira.protobuf.SFishChapter.Builder>(internal__static_org_jiira_protobuf_SFishChapter__Descriptor,
+                new string[] { "RoomID", "StartTime", "CurrentTime", "ChapterID", "FishList", "UserList", });
+        internal__static_org_jiira_protobuf_CHangUpRoom__Descriptor = Descriptor.MessageTypes[6];
+        internal__static_org_jiira_protobuf_CHangUpRoom__FieldAccessorTable = 
+            new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CHangUpRoom, global::org.jiira.protobuf.CHangUpRoom.Builder>(internal__static_org_jiira_protobuf_CHangUpRoom__Descriptor,
+                new string[] { });
+        internal__static_org_jiira_protobuf_SError__Descriptor = Descriptor.MessageTypes[7];
         internal__static_org_jiira_protobuf_SError__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SError, global::org.jiira.protobuf.SError.Builder>(internal__static_org_jiira_protobuf_SError__Descriptor,
                 new string[] { "Code", });
-        internal__static_org_jiira_protobuf_SSingleUpdate__Descriptor = Descriptor.MessageTypes[3];
+        internal__static_org_jiira_protobuf_SSingleUpdate__Descriptor = Descriptor.MessageTypes[8];
         internal__static_org_jiira_protobuf_SSingleUpdate__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.SSingleUpdate, global::org.jiira.protobuf.SSingleUpdate.Builder>(internal__static_org_jiira_protobuf_SSingleUpdate__Descriptor,
                 new string[] { "UserID", "Keys", "IDs", "Counts", });
-        internal__static_org_jiira_protobuf_CTest__Descriptor = Descriptor.MessageTypes[4];
+        internal__static_org_jiira_protobuf_CTest__Descriptor = Descriptor.MessageTypes[9];
         internal__static_org_jiira_protobuf_CTest__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CTest, global::org.jiira.protobuf.CTest.Builder>(internal__static_org_jiira_protobuf_CTest__Descriptor,
                 new string[] { "Id", "Msg", });
-        internal__static_org_jiira_protobuf_STest__Descriptor = Descriptor.MessageTypes[5];
+        internal__static_org_jiira_protobuf_STest__Descriptor = Descriptor.MessageTypes[10];
         internal__static_org_jiira_protobuf_STest__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.STest, global::org.jiira.protobuf.STest.Builder>(internal__static_org_jiira_protobuf_STest__Descriptor,
                 new string[] { "Id", "Msg", });
-        internal__static_org_jiira_protobuf_CHeart__Descriptor = Descriptor.MessageTypes[6];
+        internal__static_org_jiira_protobuf_CHeart__Descriptor = Descriptor.MessageTypes[11];
         internal__static_org_jiira_protobuf_CHeart__FieldAccessorTable = 
             new pb::FieldAccess.FieldAccessorTable<global::org.jiira.protobuf.CHeart, global::org.jiira.protobuf.CHeart.Builder>(internal__static_org_jiira_protobuf_CHeart__Descriptor,
                 new string[] { "Time", });
@@ -769,6 +803,1162 @@ namespace org.jiira.protobuf {
       }
     }
     static SUserData() {
+      object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
+    }
+  }
+  
+  public sealed partial class CEnterRoom : pb::GeneratedMessage<CEnterRoom, CEnterRoom.Builder> {
+    private static readonly CEnterRoom defaultInstance = new Builder().BuildPartial();
+    public static CEnterRoom DefaultInstance {
+      get { return defaultInstance; }
+    }
+    
+    public override CEnterRoom DefaultInstanceForType {
+      get { return defaultInstance; }
+    }
+    
+    protected override CEnterRoom ThisMessage {
+      get { return this; }
+    }
+    
+    public static pbd::MessageDescriptor Descriptor {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_CEnterRoom__Descriptor; }
+    }
+    
+    protected override pb::FieldAccess.FieldAccessorTable<CEnterRoom, CEnterRoom.Builder> InternalFieldAccessors {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_CEnterRoom__FieldAccessorTable; }
+    }
+    
+    public override bool IsInitialized {
+      get {
+        return true;
+      }
+    }
+    
+    public override void WriteTo(pb::CodedOutputStream output) {
+      int size = SerializedSize;
+      UnknownFields.WriteTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public override int SerializedSize {
+      get {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+        
+        size = 0;
+        size += UnknownFields.SerializedSize;
+        memoizedSerializedSize = size;
+        return size;
+      }
+    }
+    
+    public static CEnterRoom ParseFrom(pb::ByteString data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(byte[] data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(global::System.IO.Stream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static CEnterRoom ParseDelimitedFrom(global::System.IO.Stream input) {
+      return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+    }
+    public static CEnterRoom ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(pb::CodedInputStream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static CEnterRoom ParseFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static Builder CreateBuilder() { return new Builder(); }
+    public override Builder ToBuilder() { return CreateBuilder(this); }
+    public override Builder CreateBuilderForType() { return new Builder(); }
+    public static Builder CreateBuilder(CEnterRoom prototype) {
+      return (Builder) new Builder().MergeFrom(prototype);
+    }
+    
+    public sealed partial class Builder : pb::GeneratedBuilder<CEnterRoom, Builder> {
+      protected override Builder ThisBuilder {
+        get { return this; }
+      }
+      public Builder() {}
+      
+      CEnterRoom result = new CEnterRoom();
+      
+      protected override CEnterRoom MessageBeingBuilt {
+        get { return result; }
+      }
+      
+      public override Builder Clear() {
+        result = new CEnterRoom();
+        return this;
+      }
+      
+      public override Builder Clone() {
+        return new Builder().MergeFrom(result);
+      }
+      
+      public override pbd::MessageDescriptor DescriptorForType {
+        get { return global::org.jiira.protobuf.CEnterRoom.Descriptor; }
+      }
+      
+      public override CEnterRoom DefaultInstanceForType {
+        get { return global::org.jiira.protobuf.CEnterRoom.DefaultInstance; }
+      }
+      
+      public override CEnterRoom BuildPartial() {
+        if (result == null) {
+          throw new global::System.InvalidOperationException("build() has already been called on this Builder");
+        }
+        CEnterRoom returnMe = result;
+        result = null;
+        return returnMe;
+      }
+      
+      public override Builder MergeFrom(pb::IMessage other) {
+        if (other is CEnterRoom) {
+          return MergeFrom((CEnterRoom) other);
+        } else {
+          base.MergeFrom(other);
+          return this;
+        }
+      }
+      
+      public override Builder MergeFrom(CEnterRoom other) {
+        if (other == global::org.jiira.protobuf.CEnterRoom.DefaultInstance) return this;
+        this.MergeUnknownFields(other.UnknownFields);
+        return this;
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input) {
+        return MergeFrom(input, pb::ExtensionRegistry.Empty);
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+        pb::UnknownFieldSet.Builder unknownFields = null;
+        while (true) {
+          uint tag = input.ReadTag();
+          switch (tag) {
+            case 0: {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            default: {
+              if (pb::WireFormat.IsEndGroupTag(tag)) {
+                if (unknownFields != null) {
+                  this.UnknownFields = unknownFields.Build();
+                }
+                return this;
+              }
+              if (unknownFields == null) {
+                unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+              }
+              ParseUnknownField(input, unknownFields, extensionRegistry, tag);
+              break;
+            }
+          }
+        }
+      }
+      
+    }
+    static CEnterRoom() {
+      object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
+    }
+  }
+  
+  public sealed partial class COutRoom : pb::GeneratedMessage<COutRoom, COutRoom.Builder> {
+    private static readonly COutRoom defaultInstance = new Builder().BuildPartial();
+    public static COutRoom DefaultInstance {
+      get { return defaultInstance; }
+    }
+    
+    public override COutRoom DefaultInstanceForType {
+      get { return defaultInstance; }
+    }
+    
+    protected override COutRoom ThisMessage {
+      get { return this; }
+    }
+    
+    public static pbd::MessageDescriptor Descriptor {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_COutRoom__Descriptor; }
+    }
+    
+    protected override pb::FieldAccess.FieldAccessorTable<COutRoom, COutRoom.Builder> InternalFieldAccessors {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_COutRoom__FieldAccessorTable; }
+    }
+    
+    public override bool IsInitialized {
+      get {
+        return true;
+      }
+    }
+    
+    public override void WriteTo(pb::CodedOutputStream output) {
+      int size = SerializedSize;
+      UnknownFields.WriteTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public override int SerializedSize {
+      get {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+        
+        size = 0;
+        size += UnknownFields.SerializedSize;
+        memoizedSerializedSize = size;
+        return size;
+      }
+    }
+    
+    public static COutRoom ParseFrom(pb::ByteString data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(byte[] data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(global::System.IO.Stream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static COutRoom ParseDelimitedFrom(global::System.IO.Stream input) {
+      return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+    }
+    public static COutRoom ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+    }
+    public static COutRoom ParseFrom(pb::CodedInputStream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static COutRoom ParseFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static Builder CreateBuilder() { return new Builder(); }
+    public override Builder ToBuilder() { return CreateBuilder(this); }
+    public override Builder CreateBuilderForType() { return new Builder(); }
+    public static Builder CreateBuilder(COutRoom prototype) {
+      return (Builder) new Builder().MergeFrom(prototype);
+    }
+    
+    public sealed partial class Builder : pb::GeneratedBuilder<COutRoom, Builder> {
+      protected override Builder ThisBuilder {
+        get { return this; }
+      }
+      public Builder() {}
+      
+      COutRoom result = new COutRoom();
+      
+      protected override COutRoom MessageBeingBuilt {
+        get { return result; }
+      }
+      
+      public override Builder Clear() {
+        result = new COutRoom();
+        return this;
+      }
+      
+      public override Builder Clone() {
+        return new Builder().MergeFrom(result);
+      }
+      
+      public override pbd::MessageDescriptor DescriptorForType {
+        get { return global::org.jiira.protobuf.COutRoom.Descriptor; }
+      }
+      
+      public override COutRoom DefaultInstanceForType {
+        get { return global::org.jiira.protobuf.COutRoom.DefaultInstance; }
+      }
+      
+      public override COutRoom BuildPartial() {
+        if (result == null) {
+          throw new global::System.InvalidOperationException("build() has already been called on this Builder");
+        }
+        COutRoom returnMe = result;
+        result = null;
+        return returnMe;
+      }
+      
+      public override Builder MergeFrom(pb::IMessage other) {
+        if (other is COutRoom) {
+          return MergeFrom((COutRoom) other);
+        } else {
+          base.MergeFrom(other);
+          return this;
+        }
+      }
+      
+      public override Builder MergeFrom(COutRoom other) {
+        if (other == global::org.jiira.protobuf.COutRoom.DefaultInstance) return this;
+        this.MergeUnknownFields(other.UnknownFields);
+        return this;
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input) {
+        return MergeFrom(input, pb::ExtensionRegistry.Empty);
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+        pb::UnknownFieldSet.Builder unknownFields = null;
+        while (true) {
+          uint tag = input.ReadTag();
+          switch (tag) {
+            case 0: {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            default: {
+              if (pb::WireFormat.IsEndGroupTag(tag)) {
+                if (unknownFields != null) {
+                  this.UnknownFields = unknownFields.Build();
+                }
+                return this;
+              }
+              if (unknownFields == null) {
+                unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+              }
+              ParseUnknownField(input, unknownFields, extensionRegistry, tag);
+              break;
+            }
+          }
+        }
+      }
+      
+    }
+    static COutRoom() {
+      object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
+    }
+  }
+  
+  public sealed partial class SOutRoom : pb::GeneratedMessage<SOutRoom, SOutRoom.Builder> {
+    private static readonly SOutRoom defaultInstance = new Builder().BuildPartial();
+    public static SOutRoom DefaultInstance {
+      get { return defaultInstance; }
+    }
+    
+    public override SOutRoom DefaultInstanceForType {
+      get { return defaultInstance; }
+    }
+    
+    protected override SOutRoom ThisMessage {
+      get { return this; }
+    }
+    
+    public static pbd::MessageDescriptor Descriptor {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_SOutRoom__Descriptor; }
+    }
+    
+    protected override pb::FieldAccess.FieldAccessorTable<SOutRoom, SOutRoom.Builder> InternalFieldAccessors {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_SOutRoom__FieldAccessorTable; }
+    }
+    
+    public override bool IsInitialized {
+      get {
+        return true;
+      }
+    }
+    
+    public override void WriteTo(pb::CodedOutputStream output) {
+      int size = SerializedSize;
+      UnknownFields.WriteTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public override int SerializedSize {
+      get {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+        
+        size = 0;
+        size += UnknownFields.SerializedSize;
+        memoizedSerializedSize = size;
+        return size;
+      }
+    }
+    
+    public static SOutRoom ParseFrom(pb::ByteString data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(byte[] data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(global::System.IO.Stream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static SOutRoom ParseDelimitedFrom(global::System.IO.Stream input) {
+      return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+    }
+    public static SOutRoom ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(pb::CodedInputStream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static SOutRoom ParseFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static Builder CreateBuilder() { return new Builder(); }
+    public override Builder ToBuilder() { return CreateBuilder(this); }
+    public override Builder CreateBuilderForType() { return new Builder(); }
+    public static Builder CreateBuilder(SOutRoom prototype) {
+      return (Builder) new Builder().MergeFrom(prototype);
+    }
+    
+    public sealed partial class Builder : pb::GeneratedBuilder<SOutRoom, Builder> {
+      protected override Builder ThisBuilder {
+        get { return this; }
+      }
+      public Builder() {}
+      
+      SOutRoom result = new SOutRoom();
+      
+      protected override SOutRoom MessageBeingBuilt {
+        get { return result; }
+      }
+      
+      public override Builder Clear() {
+        result = new SOutRoom();
+        return this;
+      }
+      
+      public override Builder Clone() {
+        return new Builder().MergeFrom(result);
+      }
+      
+      public override pbd::MessageDescriptor DescriptorForType {
+        get { return global::org.jiira.protobuf.SOutRoom.Descriptor; }
+      }
+      
+      public override SOutRoom DefaultInstanceForType {
+        get { return global::org.jiira.protobuf.SOutRoom.DefaultInstance; }
+      }
+      
+      public override SOutRoom BuildPartial() {
+        if (result == null) {
+          throw new global::System.InvalidOperationException("build() has already been called on this Builder");
+        }
+        SOutRoom returnMe = result;
+        result = null;
+        return returnMe;
+      }
+      
+      public override Builder MergeFrom(pb::IMessage other) {
+        if (other is SOutRoom) {
+          return MergeFrom((SOutRoom) other);
+        } else {
+          base.MergeFrom(other);
+          return this;
+        }
+      }
+      
+      public override Builder MergeFrom(SOutRoom other) {
+        if (other == global::org.jiira.protobuf.SOutRoom.DefaultInstance) return this;
+        this.MergeUnknownFields(other.UnknownFields);
+        return this;
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input) {
+        return MergeFrom(input, pb::ExtensionRegistry.Empty);
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+        pb::UnknownFieldSet.Builder unknownFields = null;
+        while (true) {
+          uint tag = input.ReadTag();
+          switch (tag) {
+            case 0: {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            default: {
+              if (pb::WireFormat.IsEndGroupTag(tag)) {
+                if (unknownFields != null) {
+                  this.UnknownFields = unknownFields.Build();
+                }
+                return this;
+              }
+              if (unknownFields == null) {
+                unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+              }
+              ParseUnknownField(input, unknownFields, extensionRegistry, tag);
+              break;
+            }
+          }
+        }
+      }
+      
+    }
+    static SOutRoom() {
+      object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
+    }
+  }
+  
+  public sealed partial class SFishChapter : pb::GeneratedMessage<SFishChapter, SFishChapter.Builder> {
+    private static readonly SFishChapter defaultInstance = new Builder().BuildPartial();
+    public static SFishChapter DefaultInstance {
+      get { return defaultInstance; }
+    }
+    
+    public override SFishChapter DefaultInstanceForType {
+      get { return defaultInstance; }
+    }
+    
+    protected override SFishChapter ThisMessage {
+      get { return this; }
+    }
+    
+    public static pbd::MessageDescriptor Descriptor {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_SFishChapter__Descriptor; }
+    }
+    
+    protected override pb::FieldAccess.FieldAccessorTable<SFishChapter, SFishChapter.Builder> InternalFieldAccessors {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_SFishChapter__FieldAccessorTable; }
+    }
+    
+    public const int RoomIDFieldNumber = 1;
+    private bool hasRoomID;
+    private int roomID_ = 0;
+    public bool HasRoomID {
+      get { return hasRoomID; }
+    }
+    public int RoomID {
+      get { return roomID_; }
+    }
+    
+    public const int StartTimeFieldNumber = 2;
+    private bool hasStartTime;
+    private long startTime_ = 0L;
+    public bool HasStartTime {
+      get { return hasStartTime; }
+    }
+    public long StartTime {
+      get { return startTime_; }
+    }
+    
+    public const int CurrentTimeFieldNumber = 3;
+    private bool hasCurrentTime;
+    private long currentTime_ = 0L;
+    public bool HasCurrentTime {
+      get { return hasCurrentTime; }
+    }
+    public long CurrentTime {
+      get { return currentTime_; }
+    }
+    
+    public const int ChapterIDFieldNumber = 4;
+    private bool hasChapterID;
+    private int chapterID_ = 0;
+    public bool HasChapterID {
+      get { return hasChapterID; }
+    }
+    public int ChapterID {
+      get { return chapterID_; }
+    }
+    
+    public const int FishListFieldNumber = 5;
+    private pbc::PopsicleList<int> fishList_ = new pbc::PopsicleList<int>();
+    public scg::IList<int> FishListList {
+      get { return pbc::Lists.AsReadOnly(fishList_); }
+    }
+    public int FishListCount {
+      get { return fishList_.Count; }
+    }
+    public int GetFishList(int index) {
+      return fishList_[index];
+    }
+    
+    public const int UserListFieldNumber = 6;
+    private pbc::PopsicleList<int> userList_ = new pbc::PopsicleList<int>();
+    public scg::IList<int> UserListList {
+      get { return pbc::Lists.AsReadOnly(userList_); }
+    }
+    public int UserListCount {
+      get { return userList_.Count; }
+    }
+    public int GetUserList(int index) {
+      return userList_[index];
+    }
+    
+    public override bool IsInitialized {
+      get {
+        if (!hasRoomID) return false;
+        if (!hasStartTime) return false;
+        if (!hasCurrentTime) return false;
+        if (!hasChapterID) return false;
+        return true;
+      }
+    }
+    
+    public override void WriteTo(pb::CodedOutputStream output) {
+      int size = SerializedSize;
+      if (HasRoomID) {
+        output.WriteInt32(1, RoomID);
+      }
+      if (HasStartTime) {
+        output.WriteInt64(2, StartTime);
+      }
+      if (HasCurrentTime) {
+        output.WriteInt64(3, CurrentTime);
+      }
+      if (HasChapterID) {
+        output.WriteInt32(4, ChapterID);
+      }
+      if (fishList_.Count > 0) {
+        foreach (int element in fishList_) {
+          output.WriteInt32(5, element);
+        }
+      }
+      if (userList_.Count > 0) {
+        foreach (int element in userList_) {
+          output.WriteInt32(6, element);
+        }
+      }
+      UnknownFields.WriteTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public override int SerializedSize {
+      get {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+        
+        size = 0;
+        if (HasRoomID) {
+          size += pb::CodedOutputStream.ComputeInt32Size(1, RoomID);
+        }
+        if (HasStartTime) {
+          size += pb::CodedOutputStream.ComputeInt64Size(2, StartTime);
+        }
+        if (HasCurrentTime) {
+          size += pb::CodedOutputStream.ComputeInt64Size(3, CurrentTime);
+        }
+        if (HasChapterID) {
+          size += pb::CodedOutputStream.ComputeInt32Size(4, ChapterID);
+        }
+        {
+          int dataSize = 0;
+          foreach (int element in FishListList) {
+            dataSize += pb::CodedOutputStream.ComputeInt32SizeNoTag(element);
+          }
+          size += dataSize;
+          size += 1 * fishList_.Count;
+        }
+        {
+          int dataSize = 0;
+          foreach (int element in UserListList) {
+            dataSize += pb::CodedOutputStream.ComputeInt32SizeNoTag(element);
+          }
+          size += dataSize;
+          size += 1 * userList_.Count;
+        }
+        size += UnknownFields.SerializedSize;
+        memoizedSerializedSize = size;
+        return size;
+      }
+    }
+    
+    public static SFishChapter ParseFrom(pb::ByteString data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(byte[] data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(global::System.IO.Stream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static SFishChapter ParseDelimitedFrom(global::System.IO.Stream input) {
+      return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+    }
+    public static SFishChapter ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(pb::CodedInputStream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static SFishChapter ParseFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static Builder CreateBuilder() { return new Builder(); }
+    public override Builder ToBuilder() { return CreateBuilder(this); }
+    public override Builder CreateBuilderForType() { return new Builder(); }
+    public static Builder CreateBuilder(SFishChapter prototype) {
+      return (Builder) new Builder().MergeFrom(prototype);
+    }
+    
+    public sealed partial class Builder : pb::GeneratedBuilder<SFishChapter, Builder> {
+      protected override Builder ThisBuilder {
+        get { return this; }
+      }
+      public Builder() {}
+      
+      SFishChapter result = new SFishChapter();
+      
+      protected override SFishChapter MessageBeingBuilt {
+        get { return result; }
+      }
+      
+      public override Builder Clear() {
+        result = new SFishChapter();
+        return this;
+      }
+      
+      public override Builder Clone() {
+        return new Builder().MergeFrom(result);
+      }
+      
+      public override pbd::MessageDescriptor DescriptorForType {
+        get { return global::org.jiira.protobuf.SFishChapter.Descriptor; }
+      }
+      
+      public override SFishChapter DefaultInstanceForType {
+        get { return global::org.jiira.protobuf.SFishChapter.DefaultInstance; }
+      }
+      
+      public override SFishChapter BuildPartial() {
+        if (result == null) {
+          throw new global::System.InvalidOperationException("build() has already been called on this Builder");
+        }
+        result.fishList_.MakeReadOnly();
+        result.userList_.MakeReadOnly();
+        SFishChapter returnMe = result;
+        result = null;
+        return returnMe;
+      }
+      
+      public override Builder MergeFrom(pb::IMessage other) {
+        if (other is SFishChapter) {
+          return MergeFrom((SFishChapter) other);
+        } else {
+          base.MergeFrom(other);
+          return this;
+        }
+      }
+      
+      public override Builder MergeFrom(SFishChapter other) {
+        if (other == global::org.jiira.protobuf.SFishChapter.DefaultInstance) return this;
+        if (other.HasRoomID) {
+          RoomID = other.RoomID;
+        }
+        if (other.HasStartTime) {
+          StartTime = other.StartTime;
+        }
+        if (other.HasCurrentTime) {
+          CurrentTime = other.CurrentTime;
+        }
+        if (other.HasChapterID) {
+          ChapterID = other.ChapterID;
+        }
+        if (other.fishList_.Count != 0) {
+          base.AddRange(other.fishList_, result.fishList_);
+        }
+        if (other.userList_.Count != 0) {
+          base.AddRange(other.userList_, result.userList_);
+        }
+        this.MergeUnknownFields(other.UnknownFields);
+        return this;
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input) {
+        return MergeFrom(input, pb::ExtensionRegistry.Empty);
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+        pb::UnknownFieldSet.Builder unknownFields = null;
+        while (true) {
+          uint tag = input.ReadTag();
+          switch (tag) {
+            case 0: {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            default: {
+              if (pb::WireFormat.IsEndGroupTag(tag)) {
+                if (unknownFields != null) {
+                  this.UnknownFields = unknownFields.Build();
+                }
+                return this;
+              }
+              if (unknownFields == null) {
+                unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+              }
+              ParseUnknownField(input, unknownFields, extensionRegistry, tag);
+              break;
+            }
+            case 8: {
+              RoomID = input.ReadInt32();
+              break;
+            }
+            case 16: {
+              StartTime = input.ReadInt64();
+              break;
+            }
+            case 24: {
+              CurrentTime = input.ReadInt64();
+              break;
+            }
+            case 32: {
+              ChapterID = input.ReadInt32();
+              break;
+            }
+            case 40: {
+              AddFishList(input.ReadInt32());
+              break;
+            }
+            case 48: {
+              AddUserList(input.ReadInt32());
+              break;
+            }
+          }
+        }
+      }
+      
+      
+      public bool HasRoomID {
+        get { return result.HasRoomID; }
+      }
+      public int RoomID {
+        get { return result.RoomID; }
+        set { SetRoomID(value); }
+      }
+      public Builder SetRoomID(int value) {
+        result.hasRoomID = true;
+        result.roomID_ = value;
+        return this;
+      }
+      public Builder ClearRoomID() {
+        result.hasRoomID = false;
+        result.roomID_ = 0;
+        return this;
+      }
+      
+      public bool HasStartTime {
+        get { return result.HasStartTime; }
+      }
+      public long StartTime {
+        get { return result.StartTime; }
+        set { SetStartTime(value); }
+      }
+      public Builder SetStartTime(long value) {
+        result.hasStartTime = true;
+        result.startTime_ = value;
+        return this;
+      }
+      public Builder ClearStartTime() {
+        result.hasStartTime = false;
+        result.startTime_ = 0L;
+        return this;
+      }
+      
+      public bool HasCurrentTime {
+        get { return result.HasCurrentTime; }
+      }
+      public long CurrentTime {
+        get { return result.CurrentTime; }
+        set { SetCurrentTime(value); }
+      }
+      public Builder SetCurrentTime(long value) {
+        result.hasCurrentTime = true;
+        result.currentTime_ = value;
+        return this;
+      }
+      public Builder ClearCurrentTime() {
+        result.hasCurrentTime = false;
+        result.currentTime_ = 0L;
+        return this;
+      }
+      
+      public bool HasChapterID {
+        get { return result.HasChapterID; }
+      }
+      public int ChapterID {
+        get { return result.ChapterID; }
+        set { SetChapterID(value); }
+      }
+      public Builder SetChapterID(int value) {
+        result.hasChapterID = true;
+        result.chapterID_ = value;
+        return this;
+      }
+      public Builder ClearChapterID() {
+        result.hasChapterID = false;
+        result.chapterID_ = 0;
+        return this;
+      }
+      
+      public pbc::IPopsicleList<int> FishListList {
+        get { return result.fishList_; }
+      }
+      public int FishListCount {
+        get { return result.FishListCount; }
+      }
+      public int GetFishList(int index) {
+        return result.GetFishList(index);
+      }
+      public Builder SetFishList(int index, int value) {
+        result.fishList_[index] = value;
+        return this;
+      }
+      public Builder AddFishList(int value) {
+        result.fishList_.Add(value);
+        return this;
+      }
+      public Builder AddRangeFishList(scg::IEnumerable<int> values) {
+        base.AddRange(values, result.fishList_);
+        return this;
+      }
+      public Builder ClearFishList() {
+        result.fishList_.Clear();
+        return this;
+      }
+      
+      public pbc::IPopsicleList<int> UserListList {
+        get { return result.userList_; }
+      }
+      public int UserListCount {
+        get { return result.UserListCount; }
+      }
+      public int GetUserList(int index) {
+        return result.GetUserList(index);
+      }
+      public Builder SetUserList(int index, int value) {
+        result.userList_[index] = value;
+        return this;
+      }
+      public Builder AddUserList(int value) {
+        result.userList_.Add(value);
+        return this;
+      }
+      public Builder AddRangeUserList(scg::IEnumerable<int> values) {
+        base.AddRange(values, result.userList_);
+        return this;
+      }
+      public Builder ClearUserList() {
+        result.userList_.Clear();
+        return this;
+      }
+    }
+    static SFishChapter() {
+      object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
+    }
+  }
+  
+  public sealed partial class CHangUpRoom : pb::GeneratedMessage<CHangUpRoom, CHangUpRoom.Builder> {
+    private static readonly CHangUpRoom defaultInstance = new Builder().BuildPartial();
+    public static CHangUpRoom DefaultInstance {
+      get { return defaultInstance; }
+    }
+    
+    public override CHangUpRoom DefaultInstanceForType {
+      get { return defaultInstance; }
+    }
+    
+    protected override CHangUpRoom ThisMessage {
+      get { return this; }
+    }
+    
+    public static pbd::MessageDescriptor Descriptor {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_CHangUpRoom__Descriptor; }
+    }
+    
+    protected override pb::FieldAccess.FieldAccessorTable<CHangUpRoom, CHangUpRoom.Builder> InternalFieldAccessors {
+      get { return global::org.jiira.protobuf.Protobuf.internal__static_org_jiira_protobuf_CHangUpRoom__FieldAccessorTable; }
+    }
+    
+    public override bool IsInitialized {
+      get {
+        return true;
+      }
+    }
+    
+    public override void WriteTo(pb::CodedOutputStream output) {
+      int size = SerializedSize;
+      UnknownFields.WriteTo(output);
+    }
+    
+    private int memoizedSerializedSize = -1;
+    public override int SerializedSize {
+      get {
+        int size = memoizedSerializedSize;
+        if (size != -1) return size;
+        
+        size = 0;
+        size += UnknownFields.SerializedSize;
+        memoizedSerializedSize = size;
+        return size;
+      }
+    }
+    
+    public static CHangUpRoom ParseFrom(pb::ByteString data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(pb::ByteString data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(byte[] data) {
+      return ((Builder) CreateBuilder().MergeFrom(data)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(byte[] data, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(data, extensionRegistry)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(global::System.IO.Stream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static CHangUpRoom ParseDelimitedFrom(global::System.IO.Stream input) {
+      return CreateBuilder().MergeDelimitedFrom(input).BuildParsed();
+    }
+    public static CHangUpRoom ParseDelimitedFrom(global::System.IO.Stream input, pb::ExtensionRegistry extensionRegistry) {
+      return CreateBuilder().MergeDelimitedFrom(input, extensionRegistry).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(pb::CodedInputStream input) {
+      return ((Builder) CreateBuilder().MergeFrom(input)).BuildParsed();
+    }
+    public static CHangUpRoom ParseFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+      return ((Builder) CreateBuilder().MergeFrom(input, extensionRegistry)).BuildParsed();
+    }
+    public static Builder CreateBuilder() { return new Builder(); }
+    public override Builder ToBuilder() { return CreateBuilder(this); }
+    public override Builder CreateBuilderForType() { return new Builder(); }
+    public static Builder CreateBuilder(CHangUpRoom prototype) {
+      return (Builder) new Builder().MergeFrom(prototype);
+    }
+    
+    public sealed partial class Builder : pb::GeneratedBuilder<CHangUpRoom, Builder> {
+      protected override Builder ThisBuilder {
+        get { return this; }
+      }
+      public Builder() {}
+      
+      CHangUpRoom result = new CHangUpRoom();
+      
+      protected override CHangUpRoom MessageBeingBuilt {
+        get { return result; }
+      }
+      
+      public override Builder Clear() {
+        result = new CHangUpRoom();
+        return this;
+      }
+      
+      public override Builder Clone() {
+        return new Builder().MergeFrom(result);
+      }
+      
+      public override pbd::MessageDescriptor DescriptorForType {
+        get { return global::org.jiira.protobuf.CHangUpRoom.Descriptor; }
+      }
+      
+      public override CHangUpRoom DefaultInstanceForType {
+        get { return global::org.jiira.protobuf.CHangUpRoom.DefaultInstance; }
+      }
+      
+      public override CHangUpRoom BuildPartial() {
+        if (result == null) {
+          throw new global::System.InvalidOperationException("build() has already been called on this Builder");
+        }
+        CHangUpRoom returnMe = result;
+        result = null;
+        return returnMe;
+      }
+      
+      public override Builder MergeFrom(pb::IMessage other) {
+        if (other is CHangUpRoom) {
+          return MergeFrom((CHangUpRoom) other);
+        } else {
+          base.MergeFrom(other);
+          return this;
+        }
+      }
+      
+      public override Builder MergeFrom(CHangUpRoom other) {
+        if (other == global::org.jiira.protobuf.CHangUpRoom.DefaultInstance) return this;
+        this.MergeUnknownFields(other.UnknownFields);
+        return this;
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input) {
+        return MergeFrom(input, pb::ExtensionRegistry.Empty);
+      }
+      
+      public override Builder MergeFrom(pb::CodedInputStream input, pb::ExtensionRegistry extensionRegistry) {
+        pb::UnknownFieldSet.Builder unknownFields = null;
+        while (true) {
+          uint tag = input.ReadTag();
+          switch (tag) {
+            case 0: {
+              if (unknownFields != null) {
+                this.UnknownFields = unknownFields.Build();
+              }
+              return this;
+            }
+            default: {
+              if (pb::WireFormat.IsEndGroupTag(tag)) {
+                if (unknownFields != null) {
+                  this.UnknownFields = unknownFields.Build();
+                }
+                return this;
+              }
+              if (unknownFields == null) {
+                unknownFields = pb::UnknownFieldSet.CreateBuilder(this.UnknownFields);
+              }
+              ParseUnknownField(input, unknownFields, extensionRegistry, tag);
+              break;
+            }
+          }
+        }
+      }
+      
+    }
+    static CHangUpRoom() {
       object.ReferenceEquals(global::org.jiira.protobuf.Protobuf.Descriptor, null);
     }
   }

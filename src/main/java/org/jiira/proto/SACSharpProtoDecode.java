@@ -70,7 +70,7 @@ public class SACSharpProtoDecode implements ISAProtoDecode{
 + "\n\t\tpublic string[] readArray()"
 + "\n\t\t{"
 
-+ "\n\t\t\tx = iostring.IndexOf(SAProtoDecode.decodeArrayAssign, x) + 1;"
++ "\n\t\t\tx = iostring.IndexOf(SAProtoDecode.decodeArrayAssign, x) + SAProtoDecode.decodeArrayAssign.Length;"
 + "\n\t\t\ty = iostring.IndexOf(SAProtoDecode.decodeArrayEnd, x);"
 + "\n\t\t\tstring value = iostring.Substring(x, y - x);"
 + "\n\t\t\tx = y + SAProtoDecode.decodeArrayEnd.Length;"
@@ -95,7 +95,7 @@ public class SACSharpProtoDecode implements ISAProtoDecode{
 + "\n\t\tpublic const string SABoolean = \"" + SAProtoEncode.SABoolean + "\";"
 + "\n\t\tpublic const string SAArray = \"" + SAProtoEncode.SAArray + "\";"
 + "\n\t\tpublic const string isBooleanStr = \"" + SAProtoEncode.isBooleanStr + "\";"
-+ "\n\t\tpublic const string splitStr = \"" + SAProtoEncode.splitStr + "\";"
++ "\n\t\tpublic const string splitStr = \"" + SAProtoEncode.javaSplitStr + "\";"
 + "\n\t\tpublic const string decodeAssign = \"" + SAProtoEncode.decodeAssign + "\";"
 + "\n\t\tpublic const string decodeSplit = \"" + SAProtoEncode.decodeSplit + "\";"
 + "\n\t\tpublic const string decodeEnd = \"" + SAProtoEncode.decodeEnd + "\";"

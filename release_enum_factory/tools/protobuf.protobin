@@ -1,5 +1,5 @@
 
-ç
+¡
 protobuf.protoorg.jiira.protobuf",
 CLogin
 userName (	
@@ -11,7 +11,21 @@
 nickName (	
 coin (
 diamond (
-state ("
+state ("
+
+CEnterRoom"
+
+COutRoom"
+
+SOutRoom"}
+SFishChapter
+roomID (
+	startTime (
+currentTime (
+	chapterID (
+fishList (
+userList ("
+CHangUpRoom"
 SError
 code ("J
 SSingleUpdate
